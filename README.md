@@ -1,7 +1,7 @@
 # Pizza-App
 Just a Test Pizza App
 
-This demonstration "app" uses PHP 5.3 features to allow users to order a pizza and get the price.
+This demonstration "app" uses PHP 5+ features to allow users to order a pizza and get the price.
 
 If the pizza fails any validation, it will throw an ItemPriceException, with the reason for the exception.
 
