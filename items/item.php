@@ -7,8 +7,8 @@
  * @author Aaron Bell
  */
 abstract class item {
-    public $validators;
-	public $price;
+    protected $validators;
+	protected $price;
 	
 	abstract public function getValidators();
 	abstract public function getPrice();

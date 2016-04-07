@@ -7,11 +7,11 @@
  */
 class orderResult {
 
-	public $errors = "";
-	public $hasErrors;
-	public $price;
-	public $result;
-	public $itemDescription = array();
+	private $errors = "";
+	private $hasErrors;
+	private $price;
+	private $result;
+	private $itemDescription = array();
 
 	function orderResult(){
 

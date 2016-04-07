@@ -7,8 +7,8 @@
  * @author Aaron Bell
  */
 class itemPizzaValidator{
-	public $errors;
-	public $hasErrors = false;
+	private $errors;
+	private $hasErrors = false;
 
 	public function validate($item){
 		$itemElements = $item->getItemElements();

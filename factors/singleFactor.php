@@ -8,7 +8,6 @@
  *
  */
 class singleFactor extends baseFactor {
-	
 	public function singleFactor(){
 		$this->factor = 1;
 		$this->description = "";

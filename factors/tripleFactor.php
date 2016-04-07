@@ -8,7 +8,6 @@
  *
  */
 class tripleFactor extends baseFactor {
-	
 	public function tripleFactor(){
 		$this->factor = 3 * .8;
 		$this->description = "triple";

@@ -7,9 +7,9 @@
  * @author Aaron Bell
  */
 class itemBase extends item {
-	public $validators = array();
-	public $price;
-	public $itemElements;
+	protected $validators = array();
+	protected $price;
+	protected $itemElements;
 	protected $hasErrors = false;
 	protected $errors = array();
 
